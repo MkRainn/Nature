@@ -1,53 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>HTML Design</title>
-    <link rel="stylesheet" href="explore.css">
-</head>
-<body>
+    <link rel="stylesheet" href="explore.css" />
+  </head>
+  <body>
+    <div class="wrapper">
     <header>
-        <video autoplay loop muted playsinline class="background-video">
-         <source src="videos/El nido Palawan.webm">
-        </video>  
-        <div class="overlay"></div>
-        <nav class="nav">
-            <a href="#"><img src="images/Logo.png" alt="logo" class="logo"></a>
-            <div class="mid-nav">
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                    <li><a href="description.html">Description</a></li>
-                </ul>
-            </div>
-            <div class="search">
-                <img src="images/Search.png" alt="search">
-            </div>
-            <div class="line">
-                <img src="images/Line.png" alt="line">
-            </div>
-        </nav>
+      <video autoplay loop muted playsinline class="background-video">
+        <source src="./images/El nido Palawan.mp4" />
+      </video>
+      <div class="overlay"></div>
+      <nav class="nav">
+        <a href="#"><img src="images/Logo.png" alt="logo" class="logo" /></a>
+        <div class="mid-nav">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="description.html">Description</a></li>
+          </ul>
+        </div>
+        <div class="search">
+          <img src="images/Search.png" alt="search" />
+        </div>
+        <div class="line">
+          <img src="images/Line.png" alt="line" />
+        </div>
+      </nav>
     </header>
 
     <div class="content">
-        <h1>El Nido, Palawan</h1>
-        <p>A stunning tropical destination known for its pristine beaches, clear waters, and breathtaking landscapes. 
-           Famous for island-hopping tours, visitors can explore hidden lagoons, vibrant coral reefs, and picturesque viewpoints. 
-           It's a dream destination for those seeking natural beauty and tranquility.
-        </p>
+      <h1>El Nido, Palawan</h1>
+      <p>
+        A stunning tropical destination known for its pristine beaches, clear
+        waters, and breathtaking landscapes. Famous for island-hopping tours,
+        visitors can explore hidden lagoons, vibrant coral reefs, and
+        picturesque viewpoints. It's a dream destination for those seeking
+        natural beauty and tranquility.
+      </p>
     </div>
-
+    
+    <!-- container -->
     <div class="container">
-        <div>
-            <span><a href="biglagoon.html"><img src="images/Big lagoon.JPG" alt="big lagoon"></a></span>
-            <span><a href="small-lagoon.html"><img src="images/Small lagoon.jpg" alt="small lagoon"></a></span>
-            <span><a href="secret-lagoon.html"><img src="images/Secret lagoon.jpg" alt="secret lagoon"></a></span>
-            <span><a href="seven-commandos-beach.html"><img src="images/Seven commandos beach.jpg" alt="big lagoon"></a></span>
-            <span><a href="nacpan-beach.html"><img src="images/Nacpan Beach.jpg" alt="small lagoon"></a></span>
-            <span><a href="taraw-cliff.html"><img src="images/Taraw Cliff.jpg" alt="secret lagoon"></a></span>
+
+      <!-- scroll -->
+      <div class="img-scroll">
+        <div class="img-container">
+          <a href="biglagoon.html"
+            ><img src="images/Big lagoon.JPG" alt="big lagoon"
+          /></a>
         </div>
+
+        <div class="img-container">
+          <a href="small-lagoon.html"
+            ><img src="images/Small lagoon.jpg" alt="small lagoon"
+          /></a>
+        </div>
+
+        <div class="img-container">
+          <a href="secret-lagoon.html"
+            ><img src="images/Secret lagoon.jpg" alt="secret lagoon"
+          /></a>
+        </div>
+
+        <div class="img-container">
+          <a href="seven-commandos-beach.html"
+            ><img src="images/Seven commandos beach.jpg" alt="big lagoon"
+          /></a>
+        </div>
+
+        <div class="img-container">
+          <a href="nacpan-beach.html"
+            ><img src="images/Nacpan Beach.jpg" alt="small lagoon"
+          /></a>
+        </div>
+
+        <div class="img-container">
+          <a href="taraw-cliff.html"
+            ><img src="images/Taraw Cliff.jpg" alt="secret lagoon"
+          /></a>
+        </div>
+      </div>
     </div>
 
-</body>
+  </div>
+  </body>
 </html>
