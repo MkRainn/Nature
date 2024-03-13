@@ -4,10 +4,10 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    font-family: 'Rhodium Libre', sans-serif;
 }
 
 body {
-    font-family: 'Rhodium Libre', sans-serif;
     height: 100vh;
     color: #ddd;
     margin-left: 100px;
@@ -15,23 +15,33 @@ body {
     margin-right: 100px;
     overflow: hidden;
 }
+.parent{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.container{
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
 
-.content-img img {
+.content-img{
+    width: 650px;
+    height: 600px;
+    margin-right: 10rem;
+}
+
+.content-img img{
     border-radius: 10px;
-    margin: 100px;
-    width: 612px;
-    height: 528px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .content {
-    margin-left: 1000px;
-    width: 100%;
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    max-width: 390px;
-    max-height: 440px;
-    float: right;
+    max-width: 500px;
     color: #323232;
 }
 
@@ -53,35 +63,28 @@ body {
     text-decoration: none;
 }
 
-.form-group {
-    margin-bottom: 30px;
-}
 
-#name, #email, #message {
-    width: 390px;
+#name, #email {
+    width: 100%;
     height: 36px;
-    padding: 12px;
+    padding: 20px;
+    margin-bottom: 30px;
     border-radius: 5px;
-    box-sizing: border-box;
-    border-color: #323232;
+    outline: none;
+    border: 2px solid #00000090;
+    text-wrap: wrap;
 }
 
-#message {
-    height: 131px;
+#message{
+    width: 100%;
+    height: 150px;
+    padding:1rem;
+    border: 2px solid #00000090;
+    border-radius: 5px;
+
 }
 
-.input, textarea {
-    padding: 12px;
-    box-sizing: border-box;
-}
 
-.textarea {
-    height: 120px;
-}
-
-.search {
-    margin-right: 100p;
-}
 
 .background-img {
     position: absolute;
@@ -134,4 +137,15 @@ li {
 
 .line {
     margin-left: 9.5px;
+}
+
+.submit-btn{
+    margin-top: 20px;
+    width: 100%;
+    padding: 1rem 0;
+    font-size: 1.2rem;
+    background: #32323D;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
 }
