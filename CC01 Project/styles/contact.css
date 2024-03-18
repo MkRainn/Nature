@@ -63,21 +63,17 @@ ul li a{
     width: 100%;
     display: flex;
     justify-content: center;
-    padding: 5rem;
+    padding: 5rem 0;
 }
 
 .container {
     margin-top: 2rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    width: 85%;
+    gap: 10rem;
 }
 
-.content-img {
-    width: 650px;
-    height: 600px;
-    margin-right: 10rem;
-}
 
 .content-img img {
     border-radius: 10px;
