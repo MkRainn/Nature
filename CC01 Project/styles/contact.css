@@ -8,7 +8,7 @@
 }
 
 .wrapper {
-    background-image: url(images/Mountain.jpg);
+    background-image: url('../images/Mountain.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -69,16 +69,14 @@ ul li a{
 
 .container {
     margin-top: 2rem;
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
+    display: flex;
     width: 85%;
-    gap: 10rem;
 }
 
 
 .content-img img {
     border-radius: 10px;
-    width: 100%;
+    width: 80%;
     height: 100%;
     object-fit: cover;
 }
