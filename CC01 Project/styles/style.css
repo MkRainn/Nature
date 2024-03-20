@@ -47,7 +47,7 @@ video{
 }
 
 .content h1 {
-    font-size: 60px;
+    font-size: 4rem;
 }
 
 .content p {
@@ -88,7 +88,9 @@ ul{
 
 }
 ul li a{
+    color: #fff;
     text-decoration: none;
+    padding: 30px;
 }
 
 .line-container{
